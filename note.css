@@ -1,0 +1,67 @@
+nav {
+    background-color: #333;
+    margin-top: -10px;
+    margin-left: -20px;
+    padding-top: ;
+
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 1px 20px 1px 20px;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+
+}
+
+#nav-logo {
+    color: white;
+    text-shadow: 1px 0.5px 2px bisque;
+
+
+}
+
+a:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background: #333;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+h5 {
+    text-align: center;
+}
+
+#search {
+    height: 30px;
+    width: 300px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: ;
+
+}
